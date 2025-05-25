@@ -1,16 +1,41 @@
-# weather_block_app
+# 🌤️ Simple Weather App (BLoC)
 
-A new Flutter project.
+**Simple Weather App**, Flutter ile geliştirilen ve BLoC mimarisiyle yapılandırılmış bir hava durumu uygulamasıdır. Kullanıcının konumunu algılar, gerçek zamanlı hava durumu bilgilerini çeker ve basit ama işlevsel bir arayüzle sunar. Temiz kod, sade mimari ve responsive tasarım anlayışıyla hazırlanmıştır.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🧪 Özellikler
 
-A few resources to get you started if this is your first Flutter project:
+- 📍 **Konum algılama** (geolocator)
+- 🌦️ **Gerçek hava durumu bilgisi** (weather API)
+- 🧠 **BLoC mimarisi** ile state management
+- 🌐 **Şehir ismi veya konuma göre veri çekme**
+- 📅 Güncel tarih ve saat bilgisi (intl)
+- 🎯 Responsive tasarım ve sade kullanıcı arayüzü
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🔧 Kullanılan Teknolojiler
+
+| Paket              | Açıklama                                |
+|--------------------|------------------------------------------|
+| **flutter_bloc**   | BLoC yapısı için                        |
+| **equatable**      | State karşılaştırma işlemleri için      |
+| **geolocator**     | Cihazın konum bilgisi için              |
+| **weather**        | Hava durumu verisini çekmek için        |
+| **intl**           | Tarih, saat ve lokal formatlama için    |
+
+---
+
+## 🚀 Kurulum
+
+```bash
+# 1. Projeyi klonla
+git clone https://github.com/AlbayEmre/simple-weather-app.git
+cd simple-weather-app
+
+# 2. Gerekli paketleri yükle
+flutter pub get
+
+# 3. Uygulamayı başlat
+flutter run
